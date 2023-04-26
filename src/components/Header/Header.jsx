@@ -52,7 +52,7 @@ const Header = () => {
           <canvas
             ref={canvasRef}
             width={1500}
-            height={1000}
+            height={1200}
             className={styles.rocket}
           />
           <img className={styles.planet} src={planet} alt='planet' />
