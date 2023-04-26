@@ -1,0 +1,94 @@
+.navbar{
+  background-color: rgba(21, 10, 1, 0.214);
+  border-bottom: 1px solid #9893932d;
+  position: relative;
+  z-index: 10;
+}
+
+.nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border{
+  height: 100%;
+  padding: 0 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/ug.png);
+}
+
+.logo{
+  max-width: 315px;
+}
+
+.list{
+  display: flex;
+  gap: 43px;
+}
+
+@media (max-width: 1070px){
+  .list{
+    gap: 20px;
+  }
+}
+
+.link{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.375;
+  padding: 0 0 10px 0;
+  background-image: linear-gradient(to right, rgb(185, 181, 181), rgb(185, 181, 181));
+  background-position: bottom; 
+  background-size: 0% 1px; background-repeat: no-repeat; 
+  transition: background-size 0.5s ease-out; 
+}
+
+.link:hover{ 
+  color: #b1b1b1; 
+  background-size: 100% 1px; 
+}
+
+/* =============BURGER============= */
+.menuIcon {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .list {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+}
+
+.dropdownList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3333339a;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.dropdownLink {
+  color: #ffffff;
+  padding: 16px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownLink:hover {
+  color: #959494;
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+}
