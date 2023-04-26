@@ -1,3 +1,4 @@
+/* ========== FONT FACE START ========== */
 @font-face {
   font-family: 'MuseoSansCyrl';
   src: local('MuseoSansCyrl'),
@@ -6,9 +7,9 @@
        url('./fonts/MuseoSansCyrl-700.woff') format('woff') 700; 
   font-style: normal;
 }
+/* ========== FONT FACE END ========== */
 
-/* ============================================================== */
-
+/* ========== STYLE ZEROING START ========== */
 *,
 *::before,
 *::after {
@@ -46,9 +47,12 @@ body {
   color: #ffffff;
   font-family: "MuseoSansCyrl", sans-serif;
 }
+/* ========== STYLE ZEROING END ========== */
 
+/* ========== SPECIAL STYLES START ========== */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+/* ========== SPECIAL STYLES END ========== */

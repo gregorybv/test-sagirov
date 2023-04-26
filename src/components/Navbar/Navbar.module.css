@@ -1,3 +1,4 @@
+/* ========== NAVBAR START ========== */
 .navbar{
   background-color: rgba(21, 10, 1, 0.214);
   border-bottom: 1px solid #9893932d;
@@ -52,7 +53,7 @@
   background-size: 100% 1px; 
 }
 
-/* =============BURGER============= */
+/* ========== BURGER MENU START ========== */
 .menuIcon {
   cursor: pointer;
   display: none;
@@ -92,3 +93,6 @@
   transition: all 0.3s ease-in;
   transform: scale(1.1);
 }
+/* ========== BURGER MENU END ========== */
+
+/* ========== NAVBAR END ========== */

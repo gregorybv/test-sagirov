@@ -1,3 +1,4 @@
+/* ========== HEADER START ========== */
 .header{
   background-image: url(../../assets/fone6.png);
   background-size: cover;
@@ -66,7 +67,7 @@
   }
 }
 
-/* =========================LEFT============================== */
+/* ========== LEFT BLOCK START ========== */
 
 .left{
   margin-top: 79px;
@@ -163,8 +164,9 @@
    display: none;
   }
 }
+/* ========== LEFT BLOCK END ========== */
 
-/* =========================RIGHT============================== */
+/* ========== RIGHT BLOCK START ========== */
 
 .right{
   margin-top: 47px;
@@ -210,6 +212,10 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 0.801);
 }
+/* ========== RIGHT BLOCK END ========== */
+
+
+/* ========== HEADER END ========== */
 
 
 
