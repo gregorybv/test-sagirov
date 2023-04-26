@@ -55,7 +55,11 @@ const Header = () => {
             height={1200}
             className={styles.rocket}
           />
-          <img className={styles.planet} src={planet} alt='planet' />
+          <img
+            className={styles.planet}
+            src={planet}
+            alt='planet'
+          />
           <div className={styles.left}>
             <h1 className={styles.left__text}>
               ПУТЕШЕСТВИ<span className={styles.left__span}>Е</span>
