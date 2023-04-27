@@ -1,21 +1,12 @@
 /* ========== HEADER START ========== */
 .header{
-  /* background-image: url(../../assets/fone6.png);
+  background-image: url(../../assets/fone.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
   height: 100vh;
   overflow: hidden;
   position: relative;
-}
-
-.fon{
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .title{
@@ -37,14 +28,14 @@
 .planet {
   position: absolute;
   z-index: 10;
-  top: -390px;
-  left: -425px;
+  width: 2351px;
+  top: -487px;
+  left: -592px;
 }
 
-@media (max-width: 860px){
+@media (max-width: 1000px){
   .planet{
-    top: -318px;
-    left: -688px;
+    display: none;
   }
 }
 

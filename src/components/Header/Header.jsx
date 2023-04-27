@@ -7,7 +7,7 @@ import rocket from "../../assets/rocket.png"
 import line from "../../assets/line.png"
 import corner1 from "../../assets/corner.png"
 import corner2 from "../../assets/corner2.png"
-import fon from '../../assets/fone6.png'
+import fon from '../../assets/fone.png'
 
 const Header = () => {
   const canvasRef = useRef(null)
@@ -47,7 +47,6 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <img className={styles.fon} src={fon} alt="fon" />
       <Navbar />
       <div className='container'>
         <div className={styles.title}>
