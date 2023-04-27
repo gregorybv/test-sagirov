@@ -7,6 +7,7 @@ import rocket from "../../assets/rocket.png"
 import line from "../../assets/line.png"
 import corner1 from "../../assets/corner.png"
 import corner2 from "../../assets/corner2.png"
+import fon from '../../assets/fone6.png'
 
 const Header = () => {
   const canvasRef = useRef(null)
@@ -46,6 +47,7 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
+      <img className={styles.fon} src={fon} alt="fon" />
       <Navbar />
       <div className='container'>
         <div className={styles.title}>
@@ -88,7 +90,7 @@ const Header = () => {
             <div className={styles.blocks}>
               <div className={styles.block}>
                 <p className={styles.right__text}>календарик за</p>
-                <p className={styles.right__number}>2001г.</p>
+                <p className={styles.right__number}>2001<span className={styles.right__number_span}>г.</span></p>
                 <p className={styles.right__text}>в подарок</p>
               </div>
               <div className={styles.block}>
